@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "3b419c4d6e2090d5993d1697a0c32798c5a6cdd888aabcd2700b36f56f469000",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://4pay.online/api/openapi"
+  ],
+  "id": "4pay-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "4Pay MCP setup and connection checker",
+  "description": "Generate 4Pay MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "4pay",
+  "appName": "4Pay",
+  "providerDocs": "https://4pay.online/api/openapi",
+  "providerWebsite": "https://4pay.online/",
+  "authentication": {
+    "type": "custom_headers",
+    "requiredCredentialFields": [
+      "provider_header_credentials"
+    ],
+    "requiredHeaderNames": [
+      "x-api-key",
+      "x-organization-id"
+    ],
+    "helpUrl": "https://docs.4pay.online/docs/partners/authentication",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-4pay-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
