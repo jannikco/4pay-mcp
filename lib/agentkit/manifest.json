@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-4pay",
+      "description": "Connect AI agents to 4Pay using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-4pay/SKILL.md": "0150236e8a3bf4e26f6839c864857f0b7f6a08133419589026a6b214c2a6bab2"
+  }
+}
